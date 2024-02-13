@@ -7,19 +7,19 @@ def topic8_3():
         print(s)
 
 def topic8_4():
-    sum = 0
+    _sum = 0    
     while (n := float(input())) >= 0:
-        sum += n * 0.95 if n > 1000 else n
+        _sum += n * 0.95 if n > 1000 else n
        #sum += n > 1000 ? n * 0.95 : n; C#
-    print(sum)
+    print(_sum)
 
 def topic8_5():
     i = 0
-    sum = 0
+    _sum = 0
     while (n := float(input())) > -275.15:
-        sum += n
+        _sum += n
         i += 1
-    print(sum / i)
+    print(_sum / i)
 
 topic8_5()
 
